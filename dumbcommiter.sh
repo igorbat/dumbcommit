@@ -1,8 +1,8 @@
 git checkout -b test
-touch qu.epta
-git add qu.epta
-git commit -m "create qu.epta"
-echo -e "dumb" >> qu.epta
-git add qu.epta
-git commit -m "add dumb text to qu.epta"
+touch simple.txt
+git add simple.txt
+git commit -m "create simple.txt"
+echo -e "dumb" >> simple.txt
+git add simple.txt
+git commit -m "add dumb text to simple.txt"
 git push -u origin test
